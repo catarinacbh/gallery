@@ -2,8 +2,8 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://catarinacbh.github.io"
+baseurl: "/gallery"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -26,16 +26,12 @@ owner:
 #Set 'provider: false' to disable comments globally.
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
-comments :
-  provider : disqus
-  disqus :
-    short_name : ""
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://catarinacbh.github.io/gallery/gallery/"
+  - JOURNAL: "https://catarinacbh.github.io/gallery/journal/"
+  - ABOUT: "https://catarinacbh.github.io/gallery/about/"
 
 # All translation keys
 translations:
@@ -56,7 +52,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
