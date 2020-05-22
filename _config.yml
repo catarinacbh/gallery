@@ -1,16 +1,16 @@
 # Site settings
-title: 360º Lens
+title: Birds Eye View
 email: "catarinacbh@gmail.com"
 description: "Photo Collection"
 url: "https://catarinacbh.github.io"
 baseurl: "/gallery"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+#facebook_username: ""
+#twitter_username: ""
+instagram_username: "catarinacbh"
+github_username:  "catarinacbh"
+#deviantart_username: ""
+#flickr_username: ""
+#discus_shortname: ""
 share: true
 
 # Owner/author information
@@ -29,9 +29,8 @@ owner:
 
 # Internal nav
 nav:
-  - GALLERY: "https://catarinacbh.github.io/gallery/gallery/"
-  - JOURNAL: "https://catarinacbh.github.io/gallery/journal/"
-  - ABOUT: "https://catarinacbh.github.io/gallery/about/"
+  - GALLERY: "http://127.0.0.1:4000/gallery/gallery/"
+  - ABOUT: "http://127.0.0.1:4000/gallery/about/"
 
 # All translation keys
 translations:
