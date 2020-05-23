@@ -29,8 +29,8 @@ owner:
 
 # Internal nav
 nav:
-  - GALLERY: "http://127.0.0.1:4000/gallery/gallery/"
-  - ABOUT: "http://127.0.0.1:4000/gallery/about/"
+  - GALLERY: "http://catarinacbh.com/gallery/gallery/"
+  - ABOUT: "http://catarinacbh.com/gallery/about/"
 
 # All translation keys
 translations:
