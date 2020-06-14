@@ -1,21 +1,33 @@
 ---
 layout: page
 title: "album"
-description: "masonry"
+description: "Andaman Sea"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-album-title: "my 5th album"
+album-title: "Burma Sea"
 images:
- - image_path: /gallery/archive/g05/bg1.jpg
-   caption: IMAGE TITLE
-   mfp-title: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g05/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g05/bg3.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
+ - image_path: /gallery/archive/g05/krabi_1.JPG
+   caption: Railay Beach
+   mfp-title: Krabi
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_2.JPG
+   caption: Railay Beach
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_3.JPG
+   caption: Popcorn Monkey
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_4.JPG
+   caption: Hong Island
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_5.JPG
+   caption: Andaman Sea
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_6.JPG
+   caption: Hong Island
+   copyright: © BirdsEyeView
+ - image_path: /gallery/archive/g05/krabi_7.JPG
+   caption: Andaman Sea
+   copyright: © BirdsEyeView
 ---
 
 <html class="no-js" lang="en">
@@ -24,7 +36,7 @@ images:
 </head>
 
     <body>
- 
+
 	<section id="content" role="main">
 		<div class="wrapper">
 	<br><br>
@@ -33,16 +45,16 @@ images:
 
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-		
-{% for image in page.images %}  		
+
+{% for image in page.images %}
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
-					</header>	
+
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
@@ -50,7 +62,7 @@ images:
 						</div>
 					</figcaption>
 				</figure>
-				
+
 {% endfor %}
 
 			</div>
@@ -58,14 +70,14 @@ images:
 		</div><!-- END .wrapper -->
 	</section>
 
-<!-- jQuery -->    
+<!-- jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- include image popups -->
 <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->
